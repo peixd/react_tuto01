@@ -20,7 +20,7 @@ module.exports = {
         ]
     },
     output: {
-        path: path.resolve(__dirname, 'src'),
+        path: path.resolve(__dirname, 'js'),
         filename: "./js/[name].min.js"
     },
     plugins: debug ? [] : [
