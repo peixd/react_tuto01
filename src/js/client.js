@@ -1,13 +1,7 @@
-import React from "react";
 import ReactDOM from "react-dom";
+import React from 'react';
 
-class Layout extends React.Component {
-    render() {
-        return (
-            <h1>It works !!!</h1>
-        );
-    }
-}
+import Layout from './components/Layout';
 
 const app = document.getElementById('app');
 
